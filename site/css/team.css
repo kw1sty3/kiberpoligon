@@ -1,0 +1,88 @@
+.team-intro {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.team-intro h2 {
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+}
+
+.team-intro p {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+}
+
+.team-photo {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.team-photo img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.team-members {
+    margin-bottom: 3rem;
+}
+
+.team-members h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+}
+
+.member-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+    overflow: hidden;
+    display: flex;
+}
+
+.member-info {
+    flex: 0 0 250px;
+    background-color: #2c3e50;
+    color: white;
+    padding: 1.5rem;
+}
+
+.member-info h3 {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.role {
+    font-style: italic;
+    color: #3498db;
+}
+
+.member-contribution {
+    flex: 1;
+    padding: 1.5rem;
+}
+
+.member-contribution p {
+    margin-bottom: 1rem;
+}
+
+.member-contribution ul {
+    margin-left: 2rem;
+}
+
+.member-contribution li {
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .member-card {
+        flex-direction: column;
+    }
+    
+    .member-info {
+        flex: 1;
+    }
+}

@@ -1,0 +1,110 @@
+.project-description {
+    margin-bottom: 3rem;
+}
+
+.project-description h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+}
+
+.description-content {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.text-content h3 {
+    margin: 1.5rem 0 1rem;
+    color: #3498db;
+}
+
+.text-content ul {
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.text-content li {
+    margin-bottom: 0.5rem;
+}
+
+.image-content {
+    flex: 1;
+}
+
+.image-content img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.project-goals {
+    margin-bottom: 3rem;
+}
+
+.project-goals h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+}
+
+.goals-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.goal-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.goal-card:hover {
+    transform: translateY(-5px);
+}
+
+.goal-card h3 {
+    color: #3498db;
+    margin-bottom: 1rem;
+}
+
+.project-video {
+    margin-bottom: 3rem;
+}
+
+.project-video h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #2c3e50;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.video-container video {
+    width: 100%;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .description-content {
+        flex-direction: column;
+    }
+    
+    .goals-grid {
+        grid-template-columns: 1fr;
+    }
+}
